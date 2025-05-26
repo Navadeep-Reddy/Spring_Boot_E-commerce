@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c11fb8d5-0067-469e-96a3-023cf12230f6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/navadeep/WebApp/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/navadeep/WebApp/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/navadeep/WebApp/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/navadeep/WebApp/service/ProductService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1748240572376</updated>
       <workItem from="1748240573450" duration="5540000" />
-      <workItem from="1748248618688" duration="940000" />
+      <workItem from="1748248618688" duration="5894000" />
     </task>
     <servers />
   </component>
