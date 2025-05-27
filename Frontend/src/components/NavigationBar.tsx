@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 function NavigationBar() {
-  const [isSticky, setIsSticky] = useState(false);
+  const [isSticky, setIsSticky] = useState<boolean>(false);
 
   useEffect(() => {
-    const setter = () => {
+    const setter = (): void => {
       setIsSticky(window.scrollY > 0);
     };
 
@@ -18,7 +18,7 @@ function NavigationBar() {
     <nav
       className={`fixed top-0 w-[100%] ${
         isSticky ? "shadow-xl" : "shadow-sm"
-      } flex items-center px-10 justify-between bg-neutral`}
+      } flex items-center px-10 justify-between z-50 bg-neutral`}
     >
       <h1 className="text-3xl font-extrabold text-white">RandomCommerce</h1>
       <ul className="flex  justify-center gap-x-5 font-bold  text-[20px] text-white my-5">
