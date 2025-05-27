@@ -22,10 +22,8 @@ public class ProductController {
 
     @RequestMapping("/product/{prodId}")
     public Product getServiceById(@PathVariable int prodId){
-        return service.getProducts()
-                .stream()
-                .filter(n -> n.getId() == prodId)
-                .findFirst().orElse(new Product(-1, "Not Found", 0));
+        return service.getProductById(prodId);
+
     }
 
     @PostMapping("/product/add")
